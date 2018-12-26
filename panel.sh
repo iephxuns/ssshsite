@@ -44,7 +44,7 @@ service php5-fpm restart
 service nginx restart
 
 	
-
+# Installing ssh site
 	apt-get -y install zip unzip
 cd /home/vps/public_html
 wget https://raw.githubusercontent.com/iephxuns/ssshsite/master/ssh.zip
